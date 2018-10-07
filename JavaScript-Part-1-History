@@ -17,3 +17,21 @@
 </script>  
   
 ___________________________________________________________________
+  <p> paragraph one    </p>
+  <p> paragraph two    </p>
+  <p> paragraph three  </p>
+  <p> paragraph four   </p>
+  <p> paragraph five   </p>
+  <p> paragraph six    </p>
+  <p> paragraph seveen </p>
+  <button type="button" onclick="myfun()">ClickButton</button>
+   
+  <script>
+  
+    function myfun()
+    {
+      document.getElementsByTagName("p")[2].style.color="red";              
+    }
+    
+  </script>
+  ___________________________________________________________________
