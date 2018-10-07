@@ -4,3 +4,10 @@
   document.getElementsByClassName("demo")[0].innerHTML = names[3];
   </script>
   ___________________________________________________________________
+  <p>Ujjwal Technical Tips</p>
+  <script>
+  document.getElementsByTagName("p")[0].style.color ="blue";
+   document.getElementsByTagName("p")[0].style.fontSize ="63px"; 
+  </script>
+  
+  
