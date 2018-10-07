@@ -1,0 +1,6 @@
+ <h1 class="demo"></h1>
+  <script>
+  var names = ["A","B","C","D"];
+  document.getElementsByClassName("demo")[0].innerHTML = names[3];
+  </script>
+  ___________________________________________________________________
