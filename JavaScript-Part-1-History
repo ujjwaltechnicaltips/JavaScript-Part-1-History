@@ -42,7 +42,20 @@ document.getElementsByClassName("demo")[0].innerHTML = students.join(" * ");
 document.getElementsByClassName("demo")[0].style.cssText ="font-size:54px; color:red";
  </script>
  ___________________________________________________________________
+   <h1 class="demo"></h1>
  
+ <script>
+var students = ["Ram","Shyam","Ujjwal","Pushpendra"];
+     
+document.getElementsByClassName("demo")[0].innerHTML = students.pop();
+document.getElementsByClassName("demo")[0].style.cssText ="font-size:54px; color:red";
+ 
+  </script>
+  
+  ___________________________________________________________________
+  
+  
+  
   
   
   
