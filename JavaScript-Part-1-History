@@ -53,9 +53,23 @@ document.getElementsByClassName("demo")[0].style.cssText ="font-size:54px; color
   </script>
   
   ___________________________________________________________________
-  
-  
-  
-  
+   
+    <h1 class="demo"></h1>
+ <script>
+var students = ["Ram","Shyam","Ujjwal","Pushpendra"];
+document.getElementsByClassName("demo")[0].innerHTML = students;     
+ 
+ students.push("Tripti")
+ document.getElementsByClassName("demo")[0].innerHTML = students;  
+document.getElementsByClassName("demo")[0].style.cssText ="font-size:34px; color:red"; 
+ </script>
+ 
+ ___________________________________________________________________
+    <h1 class="demo">
+    </h1>
+   <script>
+  const names ={firstname:'Pushpendra', lastname:'tripathi'};
+  document.getElementsByClassName("demo")[0].innerHTML = names.firstname + " " + names.lastname;
+  </script>
   
   
