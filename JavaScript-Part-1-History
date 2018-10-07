@@ -10,4 +10,10 @@
    document.getElementsByTagName("p")[0].style.fontSize ="63px"; 
   </script>
   
+  ___________________________________________________________________
+<script>
+   <h1 class="demo era"></h1>
+  document.getElementsByClassName("demo era")[0].style.cssText = "color:blue; font-size:174px;";  
+</script>  
   
+___________________________________________________________________
